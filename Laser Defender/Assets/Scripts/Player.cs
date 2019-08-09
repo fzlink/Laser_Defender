@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     //config param
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 0.5f;
+    [SerializeField] GameObject laser;
 
     private float cameraMinX;
     private float cameraMaxX;
